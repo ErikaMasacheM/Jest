@@ -2,6 +2,12 @@ describe('set 1', () => {
   beforeAll(() => {
     console.log('before all');
   });
+  afterAll(() => {
+    console.log('afterAll');
+  });
+  beforeEach(()=>{
+    console.log('before each');
+  });
   test('case 1', () => {
     console.log('caso 1');
     expect(1 + 1).toBe(2);

@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest ",
-    "lint": "eslint demos/**",
-    "lint:fix": "eslint demos/** --fix"
+    "lint": "eslint src/**",
+    "lint:fix": "eslint src/** --fix"
   },
   "keywords": [],
   "author": "",

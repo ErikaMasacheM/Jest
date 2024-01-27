@@ -132,4 +132,4 @@ dist
 
 demos/package-lock.json
 .DS_Store
-./demos/node_modules
+./node_modules
